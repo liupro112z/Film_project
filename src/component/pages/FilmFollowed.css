@@ -1,0 +1,25 @@
+.title-filmfollow{
+    background-color: rgb(37, 37, 37);
+    color:rgb(234, 177, 7);
+    font-size:3rem;
+    padding-left: 1rem;
+    margin:0;
+}
+.list-filmfollow{
+    background-color: rgb(53, 53, 53);
+}
+.unfollow{
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 1!important;
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 0;
+    color:red;
+    text-align: right;
+    background-color: rgb(50, 49, 49,0.5)
+}
+.unfollow:hover{
+    background-color: rgb(50, 49, 49,0.8)
+}

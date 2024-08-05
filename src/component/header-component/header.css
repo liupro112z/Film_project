@@ -1,0 +1,115 @@
+.header{
+    background-color:rgb(19,25,33);
+}
+.header-top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 100px;
+}
+.header-logo{
+    display: flex;
+    align-items:center;
+    gap:1rem;
+    text-decoration: none;
+}
+.header-logo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+}
+.header-logo p{
+    font-size:3rem;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search{
+    width:50%;
+}
+.header-search{
+    font-size: 1.6rem;
+    width: 100%;
+    height:3rem;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    text-indent: 1rem;
+}
+
+
+.header-navbar{
+    padding:1rem;
+    display: flex;
+    justify-content:center;
+    margin:0;
+}
+.header-navbar a{
+    text-decoration:none;
+    padding:1rem;
+    font-size: 2rem;
+    font-weight: 900px;
+    color:white;
+    line-height: 1.5;
+}
+.header-navbar a:hover{
+    color:#e5a00d;
+}
+.header-navbar-tl{
+    cursor:default
+}
+li:hover .dropdown-link{
+    display: block;
+}
+
+
+.header-account{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+.header-account img{
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+}
+.header-account p{
+    color:white;
+    font-size: 1.8rem;
+    margin: auto;
+}
+.dropdown-link{
+    position:absolute;
+    background-color: rgb(3, 3, 3,0.8);
+    list-style-type: none;
+    display: none;
+    z-index: 100!important;
+}
+.dropdown-link a{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    align-items: left;
+}
+.dropdown{
+    position:absolute !important;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    width: 130px;
+    z-index: 100!important;
+}
+.dropdown a{
+    text-decoration:none;
+    line-height: 1.2;
+    font-size: 1.6rem;
+    color:white;
+    padding:1rem 1rem 0;
+    z-index: 100!important;
+}
+.dropdown a:last-child{
+    padding-bottom:1rem;
+}
+.dropdown a:hover{
+    color:#e5a00d;
+}

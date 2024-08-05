@@ -1,0 +1,13 @@
+.title-film{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(44, 43, 43);
+    padding:1rem;
+    align-items: center;
+}
+.title-film p{
+    color:rgb(225, 216, 216);
+    font-family:Tahoma, Arial, Helvetica, sans;
+    font-size: 2rem;
+    margin: 0;
+}

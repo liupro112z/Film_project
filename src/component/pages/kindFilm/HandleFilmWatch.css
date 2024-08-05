@@ -1,0 +1,17 @@
+.chapter-film,.name-film{
+    font-size: 2.5rem;
+    color:rgb(234, 177, 7);
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.container{
+    background-color: rgb(58,58,58);
+    height: 100%;
+}
+.main1{
+    height: 125vh;
+    background-color:rgb(27,45,60);
+}
+video{
+    width: 100%;
+}

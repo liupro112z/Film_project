@@ -1,0 +1,14 @@
+.home-page{
+    margin:0 0;
+    padding:0 0;
+    background-color:rgb(27,45,60);
+}
+.banner{
+    width:80%;
+    height: 20%;
+    margin:0 auto;
+}
+.content-film{
+    width: 80%;
+    margin:auto auto;
+}

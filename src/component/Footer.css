@@ -1,0 +1,49 @@
+.foot{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(30, 29, 29);
+}
+.footer-info{
+    display: flex;
+    margin-left: 4rem;
+}
+.footer-info img{
+    width:150px;
+    border-radius: 50%;
+    padding:1rem;
+}
+.footer-introduce{
+    color:white;
+    align-items: center;
+}
+.footer-introduce-name{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.footer-introduce-text{
+    font-size:1.6rem;
+}
+.info-contact{
+    margin-right: 200px;
+    margin-top: 2rem;
+}
+.contact-icon a{
+    font-size:2rem;
+    padding:2rem 2rem 2rem 0rem;
+}
+.contact-icon a:first-child{
+    color:white
+}
+.contact-icon a:last-child{
+    color:rgb(226, 71, 10)
+}
+.contact-icon a:hover{
+    opacity: 0.5;
+}
+.info-contact p:first-child{
+    color:white;
+    font-size: 2rem;
+}
+.contact-telephone{
+    padding:1rem 1rem 1rem 0;
+}

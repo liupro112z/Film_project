@@ -1,0 +1,23 @@
+:root{
+    --white-color:white;
+    --btn-color:#e5a00d;
+    --main-color:rgb(40, 54, 73);
+    --content-color:rgb(49, 52, 56);
+    --header-color:rgb(19,25,33);
+    --footer-color:rgb(19,25,33);
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border;
+    background-color:rgb(53, 53, 53) ;
+}
+

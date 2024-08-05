@@ -1,0 +1,66 @@
+.info{
+    display:flex;
+}
+.info-img{
+    width:200px;
+    height: 200px;
+}
+.info-set{
+    margin-left:20px;
+}
+.username{
+    color: rgb(255, 177, 9);
+    font-size: 3rem;
+}
+.setPassword{
+    font-size:2rem;
+    text-decoration: underline;
+    color:rgb(196, 177, 177);
+    cursor: pointer;
+}
+.setAvatar{
+    font-size:2rem;
+    color:rgb(196, 177, 177);
+    cursor: pointer;
+    border: 1px solid;
+}
+.changepass>p{
+    font-size:3rem;
+    color:rgb(255, 157, 0);
+    font-weight: 500;
+}
+.wrapinput{
+    display: flex;
+    flex-direction: column;
+}
+.wrapinput label{
+    font-size:2rem;
+    color:white
+}
+.changepass{
+    margin-left: 10rem;
+}
+.pass{
+    width:200px;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    font-size: 1.5rem;
+}
+.btnChangePass{
+    outline: none;
+    border: none;
+    width: 10rem;
+    text-align: center;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius:10px;
+    color:white;
+    background-color: rgb(12, 194, 109);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top:2rem;
+}
+.btnChangePass:hover{
+    background-color:rgb(17, 164, 96)
+}

@@ -1,0 +1,11 @@
+.d-block.w-100{
+    width:100vh;
+    height: 300px !important;
+    cursor: pointer;
+}
+/* .d-block.w-100:hover{
+    transform: scale(1.5);
+} */
+a.carousel-control-next{
+    z-index: 0!important;
+}
